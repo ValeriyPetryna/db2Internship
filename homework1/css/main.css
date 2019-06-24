@@ -256,7 +256,7 @@ body {
 
 .chat__send-form__tools {
     position: absolute;
-    top: 0;
+    bottom: 8px;
     right: 0;
     display: inline-block;
     padding-right: 20px;
