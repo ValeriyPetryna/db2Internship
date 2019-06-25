@@ -21,6 +21,10 @@ body {
     margin: 18px auto;
 }
 
+.tools-panel {
+    margin-top: 100px;
+}
+
 .tools-panel__item {
     width: 100%;
     height: 50px;
