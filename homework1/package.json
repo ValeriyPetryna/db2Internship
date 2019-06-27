@@ -1,0 +1,23 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValeriyPetryna/db2Internship.git"
+  },
+  "author": "ValeriyPetryna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValeriyPetryna/db2Internship/issues"
+  },
+  "homepage": "https://github.com/ValeriyPetryna/db2Internship#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
