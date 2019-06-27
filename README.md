@@ -3,8 +3,9 @@
 https://valeriypetryna.github.io/db2Internship/homework1/
 # Homework 3: 
 # use gulp for compile sass files :
-1. npm install
-2. npm install --global gulp
+0. clone repo
+1. run command: npm install
+2. run command: npm install --global gulp
 3. run command: gulp-sass
 4. go to the directory /app
 5. check compiled files
