@@ -1,6 +1,7 @@
 #       DB2 InternShip homeworks
-Homework 1-2: https://valeriypetryna.github.io/db2Internship/homework1/
-Homework 3: 
+# Homework 1-2: 
+https://valeriypetryna.github.io/db2Internship/homework1/
+# Homework 3: 
 # use gulp for compile sass files :
 1. npm install
 2. npm install --global gulp
