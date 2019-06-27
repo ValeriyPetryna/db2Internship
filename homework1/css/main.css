@@ -47,16 +47,17 @@ body {
 }
 
 .navbar {
+    display: flex;
     width: 100%;
     height: 60.94px;
     border-bottom: 1px solid #DAE4F2;
 }
 
-.navbar-navigation {
+.navbar-menu {
     display: inline;
 }
 
-.navbar-navigation__item {
+.navbar-menu__item {
     font-size: 13px;
     padding: 10px;
     line-height: 62px;
@@ -66,8 +67,8 @@ body {
 }
 
 .navbar-profile {
-    float: right;
     display: flex;
+    margin-left: auto;
     line-height: 62px;
     margin-right: 100px;
 }
@@ -82,9 +83,9 @@ body {
 }
 
 .chats {
-    width: 90%;
-    height: 700px;
-    margin: 90px 0 0 90px;
+    width: 92%;
+    height: 660px;
+    margin: 70px 22px 0 70px;
     display: flex;
     flex-direction: row;
     background: #FFFFFF;
