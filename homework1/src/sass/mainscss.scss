@@ -1,0 +1,14 @@
+@import "sidebar";
+@import "header";
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+    width: 100%;
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    background: #F8F9FB;
+}
