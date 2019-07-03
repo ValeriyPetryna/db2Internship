@@ -7,8 +7,9 @@ html(lang="en")
     link(rel="stylesheet", href="./css/main.css")
     title Document
   body
-    block sidebar
+    block left
       include sidebar.pug
     block content
-      include header.pug
-      include chat.pug
+      section.content
+        include header.pug
+        include chat.pug
