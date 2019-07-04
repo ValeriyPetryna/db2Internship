@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Sign up 1
+    link(href='https://fonts.googleapis.com/css?family=Roboto&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href='../../css/pages/signin.css')
+  body
+    main.wrapper
+      nav.navbar
+        .logo-container
+          img.logo-container__image(src='../../images/myfixerlogo.svg')
+        .auth
+          p.auth__text Already have an account?
+          a.auth__link Log in
+      .container
+        form.login-form
+          h1.login-form__title Sign in
+          input.login-form__input(type='text', placeholder='First name')
+          input.login-form__input(type='text', placeholder='Username')
+          input.login-form__input(type='text', placeholder='E-mail')
+          button.login-form__submit(type='submit') Get started

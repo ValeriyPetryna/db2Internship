@@ -14,7 +14,7 @@ function style() {
 
 function template() {
   return gulp
-    .src('./src/*.pug')
+    .src('./src/**/*.pug')
     .pipe(
       pug({
         pretty: true
