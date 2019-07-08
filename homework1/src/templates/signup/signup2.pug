@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    title Sign up 2
+    link(href='https://fonts.googleapis.com/css?family=Roboto&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href='../../css/pages/signup.css')
+  body
+    main.wrapper
+      nav.navbar
+        .logo-container
+          img.logo-container__image(src='../../images/myfixerlogo.svg')
+        .auth
+          p.auth__text Already have an account?
+          a.auth__link Log in
+      .container
+        form.login-form
+          h1.login-form__title Complete your account
+          input.login-form__input(type='text', placeholder='Create a password')
+          input.login-form__input(type='text', placeholder='Confirm password')
+          label.checkbox
+            .checkbox-text
+              p.auth__text I agree to the myFixer.com
+              a.auth__link Terms of Service 
+            input(type='checkbox', checked='checked')
+            span.checkmark
+          label.checkbox
+            .checkbox-text
+              p.auth__text I agree to the myFixer.com
+              a.auth__link Privacy Policy
+            input(type='checkbox', checked='')
+            span.checkmark
+          img.recaptcha(src='../../images/recaptcha.svg')
+          button.login-form__submit(type='submit') Done!
