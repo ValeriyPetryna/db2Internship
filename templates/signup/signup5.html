@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign up 5</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/pages/signup.css">
+  </head>
+  <body>
+    <main class="wrapper">
+      <nav class="navbar">
+        <div class="logo-container"><img class="logo-container__image" src="../../images/myfixerlogo.svg"></div>
+        <div class="auth">
+          <p class="auth__text">Already have an account?</p><a class="auth__link">Log in</a>
+        </div>
+      </nav>
+      <div class="container">
+        <form class="login-form">
+          <h1 class="login-form__title">Complete your account</h1>
+          <div class="login-form__input--steps">
+            <input class="login-form__input" type="password" placeholder="Create a password">
+            <div class="form-group__steps">
+              <div class="form-group__steps--item green"></div>
+              <div class="form-group__steps--item green"></div>
+              <div class="form-group__steps--item green"></div>
+            </div>
+          </div>
+          <input class="login-form__input" type="password" placeholder="Confirm password">
+          <label class="checkbox">
+            <div class="checkbox-text">
+              <p class="auth__text">I agree to the myFixer.com</p><a class="auth__link">Terms of Service </a>
+            </div>
+            <input type="checkbox" checked="checked"><span class="checkmark"></span>
+          </label>
+          <label class="checkbox">
+            <div class="checkbox-text">
+              <p class="auth__text">I agree to the myFixer.com</p><a class="auth__link">Privacy Policy</a>
+            </div>
+            <input type="checkbox" checked=""><span class="checkmark"></span>
+          </label><img class="recaptcha" src="../../images/recaptcha.svg">
+          <button class="login-form__submit" type="submit">Done!</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
