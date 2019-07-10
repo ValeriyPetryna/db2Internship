@@ -31,3 +31,6 @@ https://valeriypetryna.github.io/db2Internship/homework1/
 [Password recovery 2](https://valeriypetryna.github.io/db2Internship/templates/signin/passwordrecovery2.html)
 
 [Password recovery 3](https://valeriypetryna.github.io/db2Internship/templates/signin/passwordrecovery3.html)
+
+[Personal Information](https://valeriypetryna.github.io/db2Internship/templates/profile/personal.html)
+
