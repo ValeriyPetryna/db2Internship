@@ -1,0 +1,60 @@
+main.page
+  section.infopage
+    article.information.active
+      a(href='#') PERSONAL INFORMATION 
+    article.information
+      a(href='#') ACCOUNT INFORMATION
+  section.account
+    article.avatar
+      img.photo(src='../../images/faruh.svg')
+      .changephoto
+        img(src='../../images/Pen.svg')
+        a(href='#') Change photo
+    article.infoblock
+      .item
+        p.title First Name
+        form(action='')
+          input.holder(type='text', placeholder='Faruh')
+      .item
+        p.title Title
+        form(action='select', method='POST')
+          input.holder(type='text', list='title', placeholder='Boss')
+          datalist#title
+            option Mr
+            option Mrs
+            option Boss
+      .item
+        p.title Country
+        form(action='select', method='POST')
+          input.holderchoose(type='text', list='country', placeholder='USA')
+          datalist#country
+            option Ukraine
+            option France
+            option USA
+    article.infoblock
+      .item
+        p.title Last Name
+        form(action='')
+          input.holder(type='text', placeholder='Bernandez')
+      .item
+        p.title
+          | Mobile Phone
+        .mobile-prefix
+          .country
+            img(src='../../images/Flag.svg')
+            img(src='../../images/shape.svg')
+          form(action='select', method='POST')
+            input#right.holder(type='text', list='mobile', placeholder='+65')
+            datalist#mobile
+              option +65
+              option +380
+              option +980
+        p
+      .item
+        p.title Company
+        form(action='select', method='POST')
+          input.holder(type='text', list='company', placeholder='Amazon')
+          datalist#company
+            option Amazon
+            option Google
+            option FB
