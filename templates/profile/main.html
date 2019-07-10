@@ -1,0 +1,76 @@
+
+<main class="page">
+  <section class="infopage">
+    <article class="information active"><a href="#">PERSONAL INFORMATION </a></article>
+    <article class="information"><a href="#">ACCOUNT INFORMATION</a></article>
+  </section>
+  <section class="account">
+    <article class="avatar"><img class="photo" src="../../images/faruh.svg"/>
+      <div class="changephoto"><img src="../../images/Pen.svg"/><a href="#">Change photo</a></div>
+    </article>
+    <article class="infoblock">
+      <div class="item">
+        <p class="title">First Name</p>
+        <form action="">
+          <input class="holder" type="text" placeholder="Faruh"/>
+        </form>
+      </div>
+      <div class="item">
+        <p class="title">Title</p>
+        <form action="select" method="POST">
+          <input class="holder" type="text" list="title" placeholder="Boss"/>
+          <datalist id="title">
+            <option>Mr</option>
+            <option>Mrs</option>
+            <option>Boss</option>
+          </datalist>
+        </form>
+      </div>
+      <div class="item">
+        <p class="title">Country</p>
+        <form action="select" method="POST">
+          <input class="holderchoose" type="text" list="country" placeholder="USA"/>
+          <datalist id="country">
+            <option>Ukraine</option>
+            <option>France</option>
+            <option>USA</option>
+          </datalist>
+        </form>
+      </div>
+    </article>
+    <article class="infoblock">
+      <div class="item">
+        <p class="title">Last Name</p>
+        <form action="">
+          <input class="holder" type="text" placeholder="Bernandez"/>
+        </form>
+      </div>
+      <div class="item">
+        <p class="title">Mobile Phone</p>
+        <div class="mobile-prefix">
+          <div class="country"><img src="../../images/Flag.svg"/><img src="../../images/shape.svg"/></div>
+          <form action="select" method="POST">
+            <input class="holder" id="right" type="text" list="mobile" placeholder="+65"/>
+            <datalist id="mobile">
+              <option>+65</option>
+              <option>+380</option>
+              <option>+980</option>
+            </datalist>
+          </form>
+        </div>
+        <p></p>
+      </div>
+      <div class="item">
+        <p class="title">Company</p>
+        <form action="select" method="POST">
+          <input class="holder" type="text" list="company" placeholder="Amazon"/>
+          <datalist id="company">
+            <option>Amazon</option>
+            <option>Google</option>
+            <option>FB</option>
+          </datalist>
+        </form>
+      </div>
+    </article>
+  </section>
+</main>
