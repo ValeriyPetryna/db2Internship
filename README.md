@@ -26,3 +26,4 @@ use gulp for compile files : npm run gulp
 
 [Personal Information](https://valeriypetryna.github.io/db2Internship/templates/profile/personal.html)
 
+[Account Information](https://valeriypetryna.github.io/db2Internship/templates/profile/account.html)
