@@ -3,6 +3,7 @@ const sass = require('gulp-sass');
 const pug = require('gulp-pug');
 const imagemin = require('gulp-imagemin');
 const autoprefixer = require('gulp-autoprefixer');
+const cleanCSS = require('gulp-clean-css')
 const browserSync = require('browser-sync').create();
 
 function style() {
@@ -10,6 +11,9 @@ function style() {
     .src('./src/sass/**/*.scss')
     .pipe(sass())
     .pipe(autoprefixer())
+    .pipe(cleanCSS({
+      compatibility: 'ie8'
+    }))
     .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream());
 }
