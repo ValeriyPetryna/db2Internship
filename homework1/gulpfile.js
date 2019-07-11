@@ -2,12 +2,14 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const pug = require('gulp-pug');
 const imagemin = require('gulp-imagemin');
+const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 
 function style() {
   return gulp
     .src('./src/sass/**/*.scss')
     .pipe(sass())
+    .pipe(autoprefixer())
     .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream());
 }
