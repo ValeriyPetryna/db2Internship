@@ -18,14 +18,13 @@
         position: relative;
         left: 35%;
         top: 28%; }
-      .sidebar-tools__item--active {
+      .sidebar-tools__item.active {
         display: flex;
         border-left: 4px solid #0AD69C;
-        height: 65px;
-        margin-right: 10px; }
-        .sidebar-tools__item--active img {
+        height: 65px; }
+        .sidebar-tools__item.active img {
           position: relative;
-          left: 35%;
+          left: 30%;
           top: 28%;
           height: 20px; }
 
