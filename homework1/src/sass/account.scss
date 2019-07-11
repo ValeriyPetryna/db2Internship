@@ -1,0 +1,16 @@
+@import "sidebar";
+@import "header";
+@import "accpage";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  background: #F8F9FB;
+}
